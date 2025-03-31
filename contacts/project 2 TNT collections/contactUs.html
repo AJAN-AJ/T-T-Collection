@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNT collection</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .nav{
+            height: 70px;
+            background-color: blueviolet;
+            margin-bottom: 80px;
+        }
+        .contactUs{
+            width: 1520px; ;
+            height: 400px; ;
+            background: linear-gradient(to bottom, #b1a5c19d, #8f8f8fb0), url("Rectangle\ 11892.png");
+            border-radius: 20px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            font-size: 40px;   
+        }
+        .contactUs p{
+            position: relative;
+            top: 150px;
+            color: #6865be;
+            font-size: 90px;
+
+        }
+    
+        .contactUs_form{
+            display: flex;
+            justify-self: center;
+            width: 950px;
+            height: 710px;
+            border-radius: 20px;
+            background-color: #8E73B5;
+            margin-top: 50px;
+            margin-left: 50px;
+            justify-items: center;
+            align-items: center;
+        }
+        .container1{
+            flex: 0.8;
+            width: 355px;
+            height: 600px;
+            border-radius: 20px;
+
+        }
+        .container2{
+            flex: 1;
+            width: 300px;
+            height: 600px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+
+        
+        }
+        .line{
+            flex: 0.05;
+            height: 700px;
+        }
+       .interested{
+            
+            display: flex;
+            width: 90%;
+            height: 130px;
+            gap: 10px;
+            justify-self: center;
+        }
+        .interested2{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            width: 80%;
+            height: 130px;
+            border-radius: 12px;
+            gap: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+    
+        }
+        .interested .trousers{
+            flex: 1;
+            width: 900px;
+            height: 60px;
+            border: solid 1px  rgba(50, 49, 49, 0.277);
+            color:  rgba(50, 49, 49, 0.277);
+            border-radius: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+
+        }
+        .interested .child{
+            flex: 1;
+            width: 900px;
+            height: 60px;
+            border: solid 1px  rgba(50, 49, 49, 0.277);
+            color:  rgba(50, 49, 49, 0.277);
+            border-radius: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .skirts{
+            
+            flex: 1;
+            width: 150px;
+            height: 50px;
+            border: solid 1px  rgba(50, 49, 49, 0.277);
+            color:  rgba(50, 49, 49, 0.277);
+            border-radius: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .other{
+            flex: 1;
+            width: 150px;
+            height: 50px;
+            border: solid 1px  rgba(50, 49, 49, 0.277);
+            color:  rgba(50, 49, 49, 0.277);
+            border-radius: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .other:hover{
+            background-color: #53519A;
+            color: white;
+        }
+         .skirts:hover {
+            background-color: #53519A;
+            color: white;
+        }
+         .trousers:hover{
+            background-color: #53519A;
+            color: white;
+        } 
+         .child:hover{
+            background-color: #53519A;
+            color: white;
+        }
+        .inputs{
+            padding-top:20px ;
+            width: 450px;
+            height: 300px;
+            justify-self: center;
+        }
+        .inputs input{
+            border: none;
+            margin-top: 20px;
+            height: 40px;
+            width: 420px;
+            padding-bottom: 0%;
+            border-bottom: solid 1px #d6d2d2;
+            
+        }
+        .inputs input:focus{
+            border: none;
+            outline: none;
+            border-bottom: solid 1px #4f4d4d;
+            
+        }
+       
+        button{
+            margin-left: 30px;
+            border: 0;
+            height: 50px;
+            width: 180px;
+            border-radius: 10px;
+            background-color: #53519A;
+            color: white;
+            transition: 0.2s;
+        }
+        button:hover{
+            background-color: rgba(52, 36, 67, 0.833);
+        }
+        button img{
+            position: absolute;
+            width: 20px;
+            margin-left: -22px;
+            margin-top: -3px;
+        }
+        .cont1{
+            margin-top: -33px;
+            font-size: 34px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        .cont1 span{
+            color: #53519A;
+        }
+        .icons .email{
+            display: inline;
+            margin-top: 40px;
+            width: 20px;
+
+        }
+        .icons p{
+            position: relative;
+            top: -4px;
+            margin-left: 10px;
+            margin-top: -100px;
+
+        }
+        .contactUs_form .icons{
+            
+            width: 250px;
+            height: 400px;
+            
+        }
+        .social{
+            padding-top: 150px;
+            width: 180px;
+            
+        }
+        .container2 p{
+            margin-left: 27px;
+        }
+        .icons p{
+            display: inline;
+            margin-top: 50px;
+            width: 200px;
+            height: 20px;
+            color: white;
+        }
+        .icons {
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="contactUs">
+        <p>contact us</p>
+    </div>
+    <div class="contactUs_form">
+        <div class="line"></div>
+        <div class="container1">
+            <div class="cont1">
+                <p>Let's get <span>Connected</span> <br>Contact us for <br>more!</p>
+            </div>
+        <div class="icons">
+            <img src="Vector.png" alt="email" class="email"><p>winnicphiri@gmail.com</p><br>
+            <img src="TelephoneFill.png" alt="phone" class="email"><p>+265 999 86 81 60</p><br>
+            <img src="Vector (1).png" alt="phone" class="email"><p>Lilongwe</p><br>
+            <img src="Group 2.png" alt="" class="social">
+        </div>
+    </div>
+        <div class="container2">
+            <p> I am  interested in...</p>
+            <div class="interested">
+                <div class="interested2">
+                    <div class="skirts">
+                        <h5>Skirts</h5>
+                    </div>
+                    <div class="other"><h5>Other</h5></div>
+                </div>
+                <div class="trousers"><h5>trousers</h5></div>
+                <div class="child"><h5>chidren's wear</h5></div>
+            </div>
+           
+            <div class="inputs">
+                <input type="text" placeholder="Your name"><br>
+                <input type="text" placeholder="Your email"><br>
+                <input type="text" placeholder="Your message">
+            </div>
+            <button><img src="Vector (2).png" alt="">Send message</button>
+           
+        </div>
+
+
+
+        <div class="line"></div>
+
+    </div>
+    
+</body>
+</html>
